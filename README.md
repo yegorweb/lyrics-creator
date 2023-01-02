@@ -4,12 +4,17 @@
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/Kz6VbO48wZmgiD3YwOt67x/LRC-Creator?node-id=0%3A1&t=CD1Pz9RVWmDlOTmz-1)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 &nbsp;
+
+[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/Kz6VbO48wZmgiD3YwOt67x/LRC-Creator?node-id=0%3A1&t=CD1Pz9RVWmDlOTmz-1)
+[![Go to site](https://img.shields.io/badge/go%20to%20site-Click%20me-yellow?style=for-the-badge&logo=appveyor)](https://yegorweb.github.io/lyrics-creator/)
+&nbsp;
+
 ## **Состояние проекта**:&nbsp; :x: Не сделан &nbsp;&nbsp;![60%](https://progress-bar.dev/60)
 &nbsp;
+
 Люблю, когда при прослушивании песни изображается и перемещается текст. Для этого нужен файл с расширением .lrc. Сервисы по созданию таких файлов не устроили меня качеством интерфейса и работы, поэтому подарю миру свой. В проекте используются [Tauri](https://tauri.app), Vite, Vue, `мозг` (самое важное)
 
 <details>
