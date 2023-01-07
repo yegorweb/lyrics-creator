@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "lyrics-creator",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -62,7 +62,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "lyrics-creator",
+        "title": "Lyrics Creator",
         "width": 800
       }
     ]

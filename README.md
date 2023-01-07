@@ -12,7 +12,7 @@
 [![Go to site](https://img.shields.io/badge/go%20to%20site-Click%20me-yellow?style=for-the-badge&logo=appveyor)](https://yegorweb.github.io/lyrics-creator/)
 &nbsp;
 
-## **Состояние проекта**:&nbsp; :x: Не сделан &nbsp;&nbsp;![60%](https://progress-bar.dev/60)
+## **Состояние проекта**:&nbsp; :x: Не сделан &nbsp;&nbsp;![5%](https://progress-bar.dev/5)
 &nbsp;
 
 Люблю, когда при прослушивании песни изображается и перемещается текст. Для этого нужен файл с расширением .lrc. Сервисы по созданию таких файлов не устроили меня качеством интерфейса и работы, поэтому подарю миру свой. В проекте используются [Tauri](https://tauri.app), Vite, Vue, `мозг` (самое важное)

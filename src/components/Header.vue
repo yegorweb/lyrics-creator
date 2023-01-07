@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="left">
-            <img src="" alt="" class="title-icon" />
+            <img src="logo.svg" alt="" class="title-icon" />
             <div class="title">.LRC Creator</div>
         </div>
         <div class="right">
@@ -23,12 +23,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: rem(40);
+    padding-top: rem(40);
 }
 .left {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 40%;
     gap: rem(20);
 }
 .title {
@@ -50,5 +51,7 @@
     font-weight: 400;
     font-size: rem(22);
     color: #FFFFFF;
+    cursor: pointer;
+    white-space: nowrap;
 }
 </style>
