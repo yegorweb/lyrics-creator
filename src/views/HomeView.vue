@@ -1,6 +1,30 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue'
 import Button from '@/components/Button.vue'
+
+let file = new File(['Anna amogus'], 'lyrics.lrc', {
+    type: 'text/lrc'
+})
+
+const download = (path: string, filename: string) => {
+    // Create a new link
+    const anchor = document.createElement('a');
+    anchor.href = path;
+    anchor.download = filename;
+
+    // Append to the DOM
+    document.body.appendChild(anchor);
+
+    // Trigger `click` event
+    anchor.click();
+
+    // Remove element from DOM
+    document.body.removeChild(anchor);
+}; 
+
+var url = URL.createObjectURL(file)
+
+download(url, 'lyrics.lrc')
 </script>
 
 <template>
@@ -24,6 +48,7 @@ import Button from '@/components/Button.vue'
                 </ul>
 
                 <Button color="#3B56B8" bg="#FFFFFF" :marginTop="35">Start!</Button>
+                <a :href="url">Click</a>
 
             </section>    
             <section class="right">
